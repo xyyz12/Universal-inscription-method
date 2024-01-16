@@ -23,7 +23,7 @@ def inscribie(self, from_address, private_key, p, op, tick, amt, to, value=0):
     # 2、转换为 16 进制
     hex_data = 'Ox' + string_data.encode().hex()
     
-    # 3、发起交易
+    # 3、发起交易，这里还缺少tx代码省略了
     return self.helper.send_raw_transaction(from_address, private_key, to, value =value, data = hex_data)
 
 
