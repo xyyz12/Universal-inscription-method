@@ -18,6 +18,7 @@ def inscribie(self, from_address, private_key, p, op, tick, amt, to, value=0):
     
     string_data = 'data:,' + json_data
     print(f'命数数据：{string_data}')
+    #string_data = 'data:,{"p": "zrc-20", "op": "mint", "tick": "sync", "amt": "4"}'
     
     # 2、转换为 16 进制
     hex_data = 'Ox' + string_data.encode().hex()
