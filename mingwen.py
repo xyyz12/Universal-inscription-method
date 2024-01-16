@@ -37,7 +37,7 @@ def inscribie(self, from_address, private_key, p, op, tick, amt, to, value=0):
 
 def task(self, from_address, private_key):
 
-    p = 's'
+    p = 'zrc-20'
     op = 'mint'
     tick = 'sync'
     amt = '4'
