@@ -1,5 +1,5 @@
-# Universal-inscription-method
-通用打铭文的方式，参考大佬
+# Universal-inscription-method 铭文
+通用打铭文的方式，参考大佬 https://x.com/gm365/status/1736286875839873218?s=20
 
 1、通用铭文格式
 
