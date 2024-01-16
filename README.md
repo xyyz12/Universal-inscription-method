@@ -17,7 +17,7 @@ to: from_address    #自己的钱包地址
 value: 0            #金额
 input data: text_to_hex(input_data)  #铭文的字符串转换为16进制代码，并添加 0x 作为开头
 
-# 把文字转换成 16 进制
+把文字转换成 16 进制
 def text_to_hex(text):
     return ''.join(format(ord(char), '02x') for char in text)
 了解了这笔交易的核心，那么一个通用的打铭文的代码也就呼之欲出了
@@ -36,12 +36,3 @@ tick :  名称，这里是 sync
 amt : 数量，根据规定填写，一般不可乱改动，这里是 4
 to : 交易地址，根据规定来，有些是向自己钱包地址发起交易，有些则有特定地址，比如 Facet 铭文
 value : 附带的 ETH 价值，正常来说都是0，收钱的铭文除外
-
-
-
-
-
-
-
-
-
